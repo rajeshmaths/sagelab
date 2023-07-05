@@ -12,7 +12,6 @@ function SetPracticalNow()
        if (typeof(localStorage) !== "undefined") {
             var R = document.getElementById("rollno").value;
 	    var C = document.getElementById("college").value;
-	    alert(C);
             if (sessionStorage.getItem("OrigRNo") === null)
                 {   
                     localStorage.setItem("OrigRNo", R);
